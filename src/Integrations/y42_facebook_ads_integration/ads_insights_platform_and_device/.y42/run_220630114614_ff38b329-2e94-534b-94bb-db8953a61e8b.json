@@ -1,6 +1,6 @@
 {
   "request_id": "220630114614_ff38b329-2e94-534b-94bb-db8953a61e8b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "8ea47c04-59ce-490a-b8c4-1f2a9100882e",
     "target_credentials": "bfd0d87d-531f-49e7-a535-a2dc567d39a0",
@@ -75,7 +75,126 @@
     "write_disposition": "TRUNCATE",
     "external_id": "2258a527-1c9c-4745-afd3-2f988d00faa2",
     "storage_file": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/tap-facebook-datos/d2f8d9cd-b515-4493-85c5-3b451f20dbf4",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T11:47:46.873386+00:00",
+    "row_count": 2812,
+    "current_import_row_count": 2812,
+    "size_in_bytes": 531680,
+    "columns": [
+      {
+        "field_name": "account_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost_per_inline_link_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cost_per_inline_post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cost_per_unique_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cost_per_unique_inline_link_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "frequency",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "inline_link_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "inline_post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "unique_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "unique_inline_link_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "publisher_platform",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "platform_position",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "impression_device",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220630114614_ff38b329-2e94-534b-94bb-db8953a61e8b",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e&t=220630114614_ff38b329-2e94-534b-94bb-db8953a61e8b&page=table"
   },
-  "_signature": "ZRUE7B010M8GOnbkK6pS925D0cAtvkVdaQG7dOIwF93JCeUYRSbWegE/ACQ9iGgWf0vlJwJZLVlMjrLUvQM5BA=="
+  "finished_at": "2022-06-30T11:47:46.873531+00:00",
+  "_signature": "Gthkk6RMjEdsR55Cd0PIApqler4+FTUzd4tdmniZ/KtzcS7Vk0KqXjfygY7jSycEKGnbVsgLmscv6IpuiiSnCg=="
 }
