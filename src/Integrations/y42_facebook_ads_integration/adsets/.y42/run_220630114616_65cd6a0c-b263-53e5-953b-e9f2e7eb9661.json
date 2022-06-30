@@ -1,6 +1,6 @@
 {
   "request_id": "220630114616_65cd6a0c-b263-53e5-953b-e9f2e7eb9661",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "8ea47c04-59ce-490a-b8c4-1f2a9100882e",
     "target_credentials": "bfd0d87d-531f-49e7-a535-a2dc567d39a0",
@@ -52,7 +52,36 @@
     "write_disposition": "TRUNCATE",
     "external_id": "dfc1c2f0-a0e3-497e-a2da-c2de769db605",
     "storage_file": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/tap-facebook-datos/f2dec8bb-5246-436b-8b3d-43fd641136dc",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T11:47:26.002206+00:00",
+    "row_count": 9,
+    "current_import_row_count": 9,
+    "size_in_bytes": 690,
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "daily_budget",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "budget_remaining",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220630114616_65cd6a0c-b263-53e5-953b-e9f2e7eb9661",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e&t=220630114616_65cd6a0c-b263-53e5-953b-e9f2e7eb9661&page=table"
   },
-  "_signature": "O5sq5mKd1lBCcoAjjrdwuSupHaoKRSQRvJ2YB5M9j7/ap/5S6sfyiT+OeqfGJDFkl5fLpveGn6700mi3nShMCQ=="
+  "finished_at": "2022-06-30T11:47:26.002308+00:00",
+  "_signature": "RlXnjP3CU8SbPyAzxKINxXkP5Zz/dA8/71LNeKfIO5iuvl2kr2/LMmmSLsVe5oRxmeNTJ5czzqwBveq4syMMCQ=="
 }
