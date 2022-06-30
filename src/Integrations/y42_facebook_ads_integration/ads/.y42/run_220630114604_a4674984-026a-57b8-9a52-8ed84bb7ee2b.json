@@ -1,6 +1,6 @@
 {
   "request_id": "220630114604_a4674984-026a-57b8-9a52-8ed84bb7ee2b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "8ea47c04-59ce-490a-b8c4-1f2a9100882e",
     "target_credentials": "bfd0d87d-531f-49e7-a535-a2dc567d39a0",
@@ -50,7 +50,26 @@
     "write_disposition": "TRUNCATE",
     "external_id": "cdb7344b-ff61-42df-b0d8-2bac9f602473",
     "storage_file": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/tap-facebook-datos/08565868-e054-475d-95cb-8b95b6ebed31",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T11:47:04.003447+00:00",
+    "row_count": 16,
+    "current_import_row_count": 16,
+    "size_in_bytes": 544,
+    "columns": [
+      {
+        "field_name": "bid_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220630114604_a4674984-026a-57b8-9a52-8ed84bb7ee2b",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e&t=220630114604_a4674984-026a-57b8-9a52-8ed84bb7ee2b&page=table"
   },
-  "_signature": "Gt5/iBZzN0+11FHZ5+sT4FWvzcfZtMFAOfk2UtnXdFxI87zOElFGJ4OLfDkdZw9qeXFFORm8bs9SpgsJmxm5DA=="
+  "finished_at": "2022-06-30T11:47:04.003579+00:00",
+  "_signature": "mRq21djfs/L0Z5zjxxHh5TfnVqQOFoAlzAKLaRhKsgDuprkec8B4x0xb69Qu4dfNonoYlq3gdVFMZuX43yX1Cw=="
 }
