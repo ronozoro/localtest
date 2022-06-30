@@ -1,0 +1,20 @@
+{
+  "streams": [
+    {
+      "group": "Untitled spreadsheet",
+      "stream": "Untitled spreadsheet-Sheet1",
+      "table_name": "Untitled spreadsheet-Sheet1",
+      "tap_stream_id": "1Y5pU10TESLF8rXZFPBbVF_uZw_x1o1yAI60Hh9fFiPs/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "xeMV6d+QXe/oKerWKJRJyukMuQBJmekCCNi2BLgEUXbl7wrCjEnWPyvRG9GzKDXfnncxY9be13CD4jq9Vr4SCA=="
+}
