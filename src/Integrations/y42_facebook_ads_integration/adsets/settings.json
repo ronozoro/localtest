@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+  "columns": [
+    "name",
+    "id",
+    "daily_budget",
+    "budget_remaining"
+  ],
+  "import": "adsets"
+}

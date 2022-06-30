@@ -1,0 +1,75 @@
+{
+  "cronExpression": "0/30 * 1/1 * *",
+  "forceSchedule": false,
+  "linkDataArray": [
+    {
+      "from": "bfbe2cec-1c9f-42bb-85eb-dece6a3b120b",
+      "to": "216290e3-f755-41e4-914d-ad5e4131f036"
+    },
+    {
+      "from": "f112d48d-f4f5-4018-80e0-4052cd753a3d",
+      "to": "0c34f279-7d84-4925-bff9-0dafcf9d7109"
+    },
+    {
+      "from": "38e8f93b-10bf-443b-a126-37de080cfd8c",
+      "to": "ee19ca3a-39aa-4921-9a1c-a3e1e4760316"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "216290e3-f755-41e4-914d-ad5e4131f036",
+      "path": "src/Models/UI/Facebook_Ads/y42_client_facebook_adsets",
+      "location": "524.0456949966159 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "bfbe2cec-1c9f-42bb-85eb-dece6a3b120b",
+      "path": "src/Integrations/y42_facebook_ads_integration/adsets",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "0c34f279-7d84-4925-bff9-0dafcf9d7109",
+      "path": "src/Models/UI/Facebook_Ads/y42_client_facebook_ads_insights",
+      "location": "524.0456949966159 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "f112d48d-f4f5-4018-80e0-4052cd753a3d",
+      "path": "src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device",
+      "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "ee19ca3a-39aa-4921-9a1c-a3e1e4760316",
+      "path": "src/Models/UI/Facebook_Ads/y42_client_facebook_ads",
+      "location": "524.0456949966159 124",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "38e8f93b-10bf-443b-a126-37de080cfd8c",
+      "path": "src/Integrations/y42_facebook_ads_integration/ads",
+      "location": "0 124",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
+  "visualDataArray": []
+}

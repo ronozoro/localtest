@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+  "columns": [
+    "bid_type",
+    "id"
+  ],
+  "import": "ads"
+}

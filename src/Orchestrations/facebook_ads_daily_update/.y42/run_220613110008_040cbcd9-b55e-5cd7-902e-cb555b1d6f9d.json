@@ -1,0 +1,126 @@
+{
+  "run_id": "220613110008_040cbcd9-b55e-5cd7-902e-cb555b1d6f9d",
+  "status": "invalid",
+  "request": {
+    "target": {
+      "storage": {
+        "id": "5:b5cced2b-6850-4932-91cb-f6c73685f349",
+        "type": "githubapp",
+        "path": "/src/Orchestrations/facebook_ads_daily_update",
+        "branch": "main"
+      },
+      "info": {}
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "orchestration"
+    }
+  },
+  "details": {
+    "linkDataArray": [
+      {
+        "from": "bfbe2cec-1c9f-42bb-85eb-dece6a3b120b",
+        "to": "216290e3-f755-41e4-914d-ad5e4131f036"
+      },
+      {
+        "from": "f112d48d-f4f5-4018-80e0-4052cd753a3d",
+        "to": "0c34f279-7d84-4925-bff9-0dafcf9d7109"
+      },
+      {
+        "from": "38e8f93b-10bf-443b-a126-37de080cfd8c",
+        "to": "ee19ca3a-39aa-4921-9a1c-a3e1e4760316"
+      }
+    ],
+    "nodeDataArray": [
+      {
+        "key": "216290e3-f755-41e4-914d-ad5e4131f036",
+        "path": "src/Models/UI/Facebook_Ads/y42_client_facebook_adsets",
+        "location": "524.0456949966159 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "bfbe2cec-1c9f-42bb-85eb-dece6a3b120b",
+        "path": "src/Integrations/y42_facebook_ads_integration/adsets",
+        "location": "0 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "0c34f279-7d84-4925-bff9-0dafcf9d7109",
+        "path": "src/Models/UI/Facebook_Ads/y42_client_facebook_ads_insights",
+        "location": "524.0456949966159 62",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "f112d48d-f4f5-4018-80e0-4052cd753a3d",
+        "path": "src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device",
+        "location": "0 62",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "ee19ca3a-39aa-4921-9a1c-a3e1e4760316",
+        "path": "src/Models/UI/Facebook_Ads/y42_client_facebook_ads",
+        "location": "524.0456949966159 124",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "38e8f93b-10bf-443b-a126-37de080cfd8c",
+        "path": "src/Integrations/y42_facebook_ads_integration/ads",
+        "location": "0 124",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      }
+    ],
+    "visualDataArray": [],
+    "nodeStatusArray": {
+      "bfbe2cec-1c9f-42bb-85eb-dece6a3b120b": "ready",
+      "f112d48d-f4f5-4018-80e0-4052cd753a3d": "invalid",
+      "38e8f93b-10bf-443b-a126-37de080cfd8c": "ready",
+      "216290e3-f755-41e4-914d-ad5e4131f036": "ready",
+      "ee19ca3a-39aa-4921-9a1c-a3e1e4760316": "pending",
+      "0c34f279-7d84-4925-bff9-0dafcf9d7109": "invalid"
+    },
+    "jobs": {
+      "bfbe2cec-1c9f-42bb-85eb-dece6a3b120b": {
+        "run": "src/Integrations/y42_facebook_ads_integration/adsets/.y42/run_220613110009_5ecb9b29-5a69-5ca5-a375-d0fc83aecc8e.json"
+      },
+      "f112d48d-f4f5-4018-80e0-4052cd753a3d": {
+        "run": "src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device/.y42/run_220613110009_a774e5bc-287e-5490-9950-1376eca6e3ac.json"
+      },
+      "38e8f93b-10bf-443b-a126-37de080cfd8c": {
+        "run": "src/Integrations/y42_facebook_ads_integration/ads/.y42/run_220613110010_5cb5373c-abe1-5e1c-ac24-b359ba7520d7.json"
+      },
+      "216290e3-f755-41e4-914d-ad5e4131f036": {
+        "run": "src/Models/UI/Facebook_Ads/y42_client_facebook_adsets/.y42/run_220613110057_a9507ddb-171d-55d8-a2b3-bafe6f148707.json"
+      },
+      "ee19ca3a-39aa-4921-9a1c-a3e1e4760316": {
+        "run": "src/Models/UI/Facebook_Ads/y42_client_facebook_ads/.y42/run_220613110110_9615b803-63b8-51fa-b074-d09564ac2151.json"
+      }
+    }
+  },
+  "created_at": "2022-06-13T11:00:08.354212+00:00",
+  "finished_at": null,
+  "latest_pulse_at": null,
+  "updated_at": "2022-06-13T11:01:28.969885+00:00",
+  "canceled_at": null,
+  "failed_at": "2022-06-13T11:01:28.969824+00:00",
+  "_lock_token": "163f9c54-7c43-44bd-ba7b-873b3283ff97",
+  "_signature": "FvFhaVhWh59NzlJtbj6J8cJYk4FnPU/Y6GDNg3UIAkKIXhBzqXzyZBxG75ykq7MMQ3QoBjLCIQBLMn2nP1nPBQ=="
+}

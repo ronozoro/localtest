@@ -1,0 +1,1209 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "2da40a97-97d7-4098-b8a7-eca0bf0bad45",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "2da40a97-97d7-4098-b8a7-eca0bf0bad45",
+        "title": "ads_insights_platform_and_device",
+        "transformationType": "INPUT",
+        "datasourceName": "y42_facebook_ads_integration",
+        "transformObject": {
+          "source": "src/Integrations/y42_facebook_ads_integration",
+          "table": "src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "196 143.5"
+    },
+    {
+      "key": "0cc79ae7-7728-4fec-9505-c4f7427ab72f",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "0cc79ae7-7728-4fec-9505-c4f7427ab72f",
+        "title": "add timestamp and client id",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "loaded_at",
+            "originalString": "CURRENT_DATETIME()",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CURRENT_DATETIME",
+                      "range": [
+                        0,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "range": [
+                      0,
+                      18
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                18
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 18
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CURRENT_DATETIME",
+                  "range": [
+                    0,
+                    16
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          },
+          {
+            "target": "client_id",
+            "originalString": "86128710",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "value": 86128710,
+                    "raw": "86128710",
+                    "range": [
+                      0,
+                      8
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 8
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                8
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 8
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Numeric",
+                  "value": "86128710",
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "515 143"
+    },
+    {
+      "key": "801e5f88-24f1-4ac2-aed2-5738209a07ed",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "801e5f88-24f1-4ac2-aed2-5738209a07ed",
+        "title": "y42_client_facebook_ads_insights",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "y42_client_facebook_ads_insights",
+          "fields": [
+            {
+              "target": "account_id",
+              "source": "account_id",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ad_id",
+              "source": "ad_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adset_id",
+              "source": "adset_id",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "campaign_id",
+              "source": "campaign_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "campaign_name",
+              "source": "campaign_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "cost_per_inline_link_click",
+              "source": "cost_per_inline_link_click",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "cost_per_inline_post_engagement",
+              "source": "cost_per_inline_post_engagement",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "cost_per_unique_click",
+              "source": "cost_per_unique_click",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "cost_per_unique_inline_link_click",
+              "source": "cost_per_unique_inline_link_click",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_start",
+              "source": "date_start",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "frequency",
+              "source": "frequency",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "impressions",
+              "source": "impressions",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "inline_link_clicks",
+              "source": "inline_link_clicks",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "inline_post_engagement",
+              "source": "inline_post_engagement",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "reach",
+              "source": "reach",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "spend",
+              "source": "spend",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "unique_clicks",
+              "source": "unique_clicks",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "unique_inline_link_clicks",
+              "source": "unique_inline_link_clicks",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "publisher_platform",
+              "source": "publisher_platform",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "platform_position",
+              "source": "platform_position",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "impression_device",
+              "source": "impression_device",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "clicks",
+              "source": "clicks",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "loaded_at",
+              "source": "loaded_at",
+              "type": "DATETIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "client_id",
+              "source": "client_id",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "847 144"
+    },
+    {
+      "key": "7b2aa3a4-829d-4910-b889-56d13ea8f6a5",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "7b2aa3a4-829d-4910-b889-56d13ea8f6a5",
+        "title": "ads",
+        "transformationType": "INPUT",
+        "datasourceName": "y42_facebook_ads_integration",
+        "transformObject": {
+          "source": "src/Integrations/y42_facebook_ads_integration",
+          "table": "src/Integrations/y42_facebook_ads_integration/ads",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "189.47058823529414 320.9183673469388"
+    },
+    {
+      "key": "c463350d-8f40-44c8-b374-94f1c0210059",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "c463350d-8f40-44c8-b374-94f1c0210059",
+        "title": "adsets",
+        "transformationType": "INPUT",
+        "datasourceName": "y42_facebook_ads_integration",
+        "transformObject": {
+          "source": "src/Integrations/y42_facebook_ads_integration",
+          "table": "src/Integrations/y42_facebook_ads_integration/adsets",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "198 505.9795918367347"
+    },
+    {
+      "key": "0b775902-8444-4753-886b-5bee6bf78a55",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "0b775902-8444-4753-886b-5bee6bf78a55",
+        "title": "add timestamp and client id",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "loaded_at",
+            "originalString": "CURRENT_DATETIME()",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CURRENT_DATETIME",
+                      "range": [
+                        0,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "range": [
+                      0,
+                      18
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                18
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 18
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CURRENT_DATETIME",
+                  "range": [
+                    0,
+                    16
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          },
+          {
+            "target": "client_id",
+            "originalString": "86128710",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "value": 86128710,
+                    "raw": "86128710",
+                    "range": [
+                      0,
+                      8
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 8
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                8
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 8
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Numeric",
+                  "value": "86128710",
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "512 505"
+    },
+    {
+      "key": "f5638cb4-d913-401e-9506-1f87fce8b6ae",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "f5638cb4-d913-401e-9506-1f87fce8b6ae",
+        "title": "add timestamp and client id",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "loaded_at",
+            "originalString": "CURRENT_DATETIME()",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CURRENT_DATETIME",
+                      "range": [
+                        0,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "range": [
+                      0,
+                      18
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                18
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 18
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CURRENT_DATETIME",
+                  "range": [
+                    0,
+                    16
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          },
+          {
+            "target": "client_id",
+            "originalString": "86128710",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "value": 86128710,
+                    "raw": "86128710",
+                    "range": [
+                      0,
+                      8
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 8
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                8
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 8
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Numeric",
+                  "value": "86128710",
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "520 318"
+    },
+    {
+      "key": "d7ba4c56-aeff-448d-ae86-dcd0fdfb85af",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "d7ba4c56-aeff-448d-ae86-dcd0fdfb85af",
+        "title": "y42_client_facebook_ads",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "y42_client_facebook_ads",
+          "fields": [
+            {
+              "target": "bid_type",
+              "source": "bid_type",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id",
+              "source": "id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "loaded_at",
+              "source": "loaded_at",
+              "type": "DATETIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "client_id",
+              "source": "client_id",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "864.8235294117646 317.9591836734694"
+    },
+    {
+      "key": "1928f814-b3c3-47f5-81fd-b9c4ca9f0f9b",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "1928f814-b3c3-47f5-81fd-b9c4ca9f0f9b",
+        "title": "y42_client_facebook_adsets",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "y42_client_facebook_adsets",
+          "fields": [
+            {
+              "target": "name",
+              "source": "name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id",
+              "source": "id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "daily_budget",
+              "source": "daily_budget",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "budget_remaining",
+              "source": "budget_remaining",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "loaded_at",
+              "source": "loaded_at",
+              "type": "DATETIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "client_id",
+              "source": "client_id",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "872.5882352941176 491.2244897959183"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "0cc79ae7-7728-4fec-9505-c4f7427ab72f",
+      "to": "801e5f88-24f1-4ac2-aed2-5738209a07ed"
+    },
+    {
+      "from": "2da40a97-97d7-4098-b8a7-eca0bf0bad45",
+      "to": "0cc79ae7-7728-4fec-9505-c4f7427ab72f"
+    },
+    {
+      "from": "c463350d-8f40-44c8-b374-94f1c0210059",
+      "to": "0b775902-8444-4753-886b-5bee6bf78a55"
+    },
+    {
+      "from": "7b2aa3a4-829d-4910-b889-56d13ea8f6a5",
+      "to": "f5638cb4-d913-401e-9506-1f87fce8b6ae"
+    },
+    {
+      "from": "f5638cb4-d913-401e-9506-1f87fce8b6ae",
+      "to": "d7ba4c56-aeff-448d-ae86-dcd0fdfb85af"
+    },
+    {
+      "from": "0b775902-8444-4753-886b-5bee6bf78a55",
+      "to": "1928f814-b3c3-47f5-81fd-b9c4ca9f0f9b"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}

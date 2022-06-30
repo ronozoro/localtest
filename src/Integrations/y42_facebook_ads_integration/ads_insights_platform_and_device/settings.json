@@ -1,0 +1,28 @@
+{
+  "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+  "columns": [
+    "account_id",
+    "ad_id",
+    "adset_id",
+    "campaign_id",
+    "campaign_name",
+    "clicks",
+    "cost_per_inline_link_click",
+    "cost_per_inline_post_engagement",
+    "cost_per_unique_click",
+    "cost_per_unique_inline_link_click",
+    "date_start",
+    "frequency",
+    "impressions",
+    "inline_link_clicks",
+    "inline_post_engagement",
+    "reach",
+    "spend",
+    "unique_clicks",
+    "unique_inline_link_clicks",
+    "publisher_platform",
+    "platform_position",
+    "impression_device"
+  ],
+  "import": "ads_insights_platform_and_device"
+}
