@@ -1,0 +1,47 @@
+{
+  "request_id": "220630114616_65cd6a0c-b263-53e5-953b-e9f2e7eb9661",
+  "status": "pending",
+  "request": {
+    "source_credentials": "8ea47c04-59ce-490a-b8c4-1f2a9100882e",
+    "target_credentials": "bfd0d87d-531f-49e7-a535-a2dc567d39a0",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/source.json",
+      "parent_id": "10202752914758478",
+      "start_date": "2022-01-01T00:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+      "columns": [
+        "name",
+        "id",
+        "daily_budget",
+        "budget_remaining"
+      ],
+      "import": "adsets"
+    },
+    "created_at": "2022-06-30T11:46:16.142045+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/y42_facebook_ads_integration/adsets",
+        "id": "6:3176663f-6597-4a53-be21-ce5ca5cbffe7",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "26985389",
+        "owner": "ronozoro",
+        "repo": "localtest",
+        "commit_sha": "8a9c5fb4144d7cc69e5a6e5b86d80f86d9dd9d49"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-30T11:46:16.142045+00:00",
+  "_signature": "SQjTG8dm3AxbR1OD5Nd/oIp0/0+I2VGse0mP+srKYmOnpdBXKjabIDdbYgU97z3O+b7B9NsEF4I99pwoNR9cDg=="
+}
