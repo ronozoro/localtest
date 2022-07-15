@@ -1,6 +1,6 @@
 {
   "request_id": "220715162951_9675cf96-e232-5516-aa78-5812c2381ee4",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "bfd0d87d-531f-49e7-a535-a2dc567d39a0",
     "source_settings": {
@@ -34,5 +34,38 @@
     }
   },
   "created_at": "2022-07-15T16:29:51.239444+00:00",
-  "_signature": "AMY2M9S5lJZX2apdIAAW6blMe3Yx/gyN/jq+e7LGt/kXfg18RB8fvc5kGWg38KHSnTGzph+Ba6Af4MN05nISDA=="
+  "finished_at": "2022-07-15T16:30:27.093403+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-15T16:30:27.093230+00:00",
+    "row_count": 16,
+    "current_import_row_count": 16,
+    "size_in_bytes": 800,
+    "external_id": "3f4c0aa0-5ae2-401f-afa6-36bdfac564bb",
+    "columns": [
+      {
+        "field_name": "bid_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "DATETIME",
+        "external_data_type": "DATETIME"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220715162951_9675cf96-e232-5516-aa78-5812c2381ee4",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e&t=220715162951_9675cf96-e232-5516-aa78-5812c2381ee4&page=table"
+  },
+  "_signature": "RyrN52lJwszHL4GywlZR6uDQXjdvONq9mBtkOb11R/dtF5DLgGiZC7+65fJ2t12LDMrUc4ijhFKNuMblPdtsDw=="
 }
