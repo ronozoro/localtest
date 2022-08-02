@@ -1,9 +1,9 @@
 {
   "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/file-upload/0.0.0/table.json",
   "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/o?uploadType=resumable&upload_id=ADPycdtDvfxkqeIuYZRcNIHgQWTL9-8PEIMoizpGmQQtJKc5NvN6F-ipdlx9bJfCQujJOMu11tVL_XJqfvY5Z7rXh-2dhrSgP3AS",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/o?uploadType=resumable&upload_id=ADPycdt6Kyd8b6jSPZu_5_y8RKxH0QxXiXk6tUvB4STDYMJnpVb_YqnztdPFsxcGhlg_49PPkOcNk8aCXFm0cQR4A2iQEqa-9cxR",
   "originalName": "list-countries-world-25j.xlsx",
   "size": "21813",
-  "uri": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/6/file-upload/9fefeaba-0773-47f5-bb31-a065941eca95",
+  "uri": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/6/file-upload/4d9bca2e-aad6-495e-89a4-75411c60c122",
   "reupload": true
 }
