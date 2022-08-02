@@ -1,8 +1,10 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#xlsx",
+  "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/file-upload/0.0.0/table.json",
   "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/o?uploadType=resumable&upload_id=ADPycdt3ykUG6-u4qoTQPgxa4NMGWk1eguGAqSg9BgFR0eXwF3wvlVhd2-MzIi2cpL0953PDqw-TNiSteNZZh9HA_yYaVTo9b-Nz",
   "originalName": "list-countries-world-25j.xlsx",
   "size": "21813",
-  "uri": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/6/file-upload/aeb7b589-5610-414f-99c4-8e64d53a4fa2"
+  "uri": "gs://y42_anotherlocaltest_80c45ee1c6aa4017a830be402980723e/userUploads/v2/6/file-upload/aeb7b589-5610-414f-99c4-8e64d53a4fa2",
+  "identifier": "List of countries",
+  "_signature": "F7gUdFNh68y71dDsI2N/uqWThybAXCvU1OuJ9+F7qOrjfVgueHa+KGdSZ6kqEfiydIcJKUIurucBw+rhR5rwBA=="
 }
